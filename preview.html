@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Identificação de Containers Logísticos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            margin: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .codigo {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .descricao {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Códigos de Containers (ISO 6346)</h1>
+
+<div class="container">
+    <div class="codigo">MSCU 123456 7</div>
+    <div class="descricao">
+        MSCU = Dono (Mediterranean Shipping Company)<br>
+        123456 = Número de série<br>
+        7 = Dígito verificador
+    </div>
+</div>
+
+<div class="container">
+    <div class="codigo">MAEU 765432 1</div>
+    <div class="descricao">
+        MAEU = Maersk Line<br>
+        765432 = Número do container<br>
+        1 = Dígito verificador
+    </div>
+</div>
+
+<div class="container">
+    <div class="codigo">TGHU 987654 3</div>
+    <div class="descricao">
+        TGHU = Tipo e proprietário<br>
+        987654 = Identificação única<br>
+        3 = Dígito verificador
+    </div>
+</div>
+
+<div class="container">
+    <div class="codigo">CSQU 246810 5</div>
+    <div class="descricao">
+        CSQ = Companhia dona<br>
+        U = Container de carga<br>
+        246810 = Número serial<br>
+        5 = Dígito verificador
+    </div>
+</div>
+
+</body>
+</html>
